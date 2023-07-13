@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>application form</title>
+</head>
+<body>
+<form>
+    <body style="background-color:skyblue"></body>
+    <table   cellspacing="10" align="center" id="ptab" bgcolor="yellow">
+    <caption><font size="5" color="blue" face="algerian">STUDENT REGISTERATION FORM</font></caption>
+        <tr>
+            <td align="right">Name as per SSC:</td>
+            <td><input type="text" id="tbname" name="name" style="background-color:green;color=blue"></td>
+        </tr>
+    <tr>
+        <td align="right">Father name:</td>
+        <td><input type="text" id="tbfathername" name="fathername" style="background-color:green;color=white"></td>
+    </tr>
+    <tr>
+       <td align="right">Age:</td>
+        <td><input type="number" min="18" style="background-color:green;color=white"></td>
+    </tr>
+        <tr>
+       <td align="right">Date of Birth:</td>
+        <td><input type="date" style="background-color:green;color=white"></td>
+    </tr>
+        <tr>
+        <td align="right">Gender:</td>
+        <td><input type="radio" id="rdmale" name="gender"><label>Male</label>
+        <input type="radio" id="rdfemale" name="gender"><label>Female</label>
+                          <input type="radio" id="rdothers" name="gender"><label>Others</label></td>
+    </tr>
+    <tr>
+        <td align="right">Mobile number:</td>
+        <td><input type="number" id="tbmobnum" name="number" style="background-color:green;color=white"></td>
+    </tr>
+    <tr>
+        <td align="right">Languages:</td>
+        <td><input type="checkbox" id="chkEng" name="lang"><label>English</label>
+                             <input type="checkbox" id="chktel" name="lang"><label>Telugu</label>
+                             <input type="checkbox" id="chkkan" name="lang"><label>Kannada</label></td>
+    </tr>
+    <tr>
+        <td align="right">Address:</td>
+        <td><input type="text" id="tbaddress" name="address" style="background-color:green;color=white"></td>
+    </tr>
+        <tr>
+    <td align="right">Select course:</td>
+        <td><select id="ddlcourse" name="course" style="background-color:green;color=white">
+                                 <option>---select---</option>
+                                    <option>java</option>
+                                    <option>python</option>
+                                    <option>mannual testing</option>
+                                    <option>linux</option>
+                                    <option>web technology</option></select></td>
+        </tr>
+        <tr>
+        <td align="right">Select your favourite colour:</td>
+        <td><input type="color"></td>
+    </tr>
+        <tr>
+       <td align="right">Upload resume:</td>
+        <td><input type="file" multiple style="background-color:green;color=white"></td>
+    </tr>
+        <tr>
+        <td colspan="2" align="center"><video controls width="30%" length="50%">
+            <source src="videos/Unconfirmed_download_https___www.instagram.com_p_CnMoJhOBHjk_(video0).mp4"></source>
+        </video></td>
+        </tr>
+        <tr>
+        <td colspan="2" align="center"><audio controls>
+            <source src="audios/[iSongs.info] 01 - Nallareni Kalladhaanaa.mp3"></source>
+        </audio>
+            </td>
+        </tr>
+
+        <tr>
+        <td colspan="2" align="center"><input type="submit" id="btnsubmit" value="Submit your data" style="background-color:blue;color=white"></td>
+        </tr>
+    <tr>
+        <td colspan="2" align="center"><a href="endpage.html" >logout</a></td>
+        </tr>
+
+</form>
+</body>
+</html>
